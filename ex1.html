@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <input type="button" name="1" value="Night" onclick="
+    document.querySelector('body').style.backgroundColor = 'black'
+    document.querySelector('body').style.color = 'white'">
+
+    <input type="button" name="1" value="Day" onclick="
+    document.querySelector('body').style.backgroundColor = 'white'
+      document.querySelector('body').style.color = 'black'">
+
+
+
+
+    <table border="1" style="border:1px solid grey">
+      <tr>
+        <td align='right'>이름</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td align='right'>아이디</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td align='right'>비밀번호</td>
+        <td><input type="password"></td>
+      </tr>
+      <tr>
+        <td align='right'>비밀번호 확인</td>
+        <td><input type="password"></td>
+      </tr>
+      <tr>
+        <td align='right'>생년월일</td>
+        <td><input type="date"></td>
+      </tr>
+      <tr>
+        <td align='right'>자기소개</td>
+        <td><textarea rows="8" cols="30"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td align='right'>관심분야</td>
+        <td>
+          <input type="checkbox">프로그래밍
+          <input type="checkbox">마케팅
+          <input type="checkbox">회계 <br>
+          <input type="checkbox">기획
+          <input type="checkbox">디자인
+          <input type="checkbox">영업
+        </td>
+      </tr>
+      <tr>
+        <td align='right'>성별</td>
+        <td><input type="radio" name="gender">여 <input type="radio" name="gender">남</td>
+      </tr>
+      <tr>
+        <td colspan="2" align=center>
+          <input type="submit"><input type="reset">
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
